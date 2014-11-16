@@ -10,7 +10,7 @@ python AutoHathwayLogin.py
 
 ```
 
-or to make it run in background use following command . The script will keep runing weven if you log off because of nohup. 
+or to make it run in background use following command . The script will keep runing even if you log off. 
 ```
 nohup python AutoHathwayLogin.py &
 ```
