@@ -15,3 +15,5 @@ or to make it run in background use following command . The script will keep run
 nohup python AutoHathwayLogin.py &
 ```
  sleepTime is in seconds
+
+Changed line 56 to use sh.ping instead of socket
