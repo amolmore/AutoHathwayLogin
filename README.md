@@ -3,14 +3,15 @@
 This is a small script that will log you in automatically if Hathway logs you out. Hathway kicks you out every few hours and this is very annoying while downloading huge files. This script requires Python 2.7
 
 Usage:
-
-```
-python AutoHathwayLogin.py <username> <password> <sleep time in seconds>
-
-```
-
-Where username is your hathway email, password is your password and sleep time is the time between 2 consecutive internet connectivity tests and default is 30seconds. You can alternatively save username and password in the variables in the file and simply run by typing
+First change the user id and password in the script then run the following code in bash shell.
 
 ```
 python AutoHathwayLogin.py
+
 ```
+
+or to make it run in background use following command . The script will keep runing weven if you log off because of nohup. 
+```
+nohup python AutoHathwayLogin.py &
+```
+ sleepTime is in seconds
